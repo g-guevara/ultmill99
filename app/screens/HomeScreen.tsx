@@ -115,7 +115,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Discover</Text>
+        <Text style={styles.headerTitle}>Home</Text>
 
       </View>
 
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
   },
   headerTitle: {
-    fontSize: 24,
+    fontSize: 62,
     fontWeight: "bold",
     color: "#333",
   },
